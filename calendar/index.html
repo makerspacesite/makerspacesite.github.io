@@ -40,11 +40,11 @@
     var time = "";
     setInterval(function() {
       currentUrl = window.location.href;
-      aboutUrl = currentUrl.replace("/calendar/index.html","/about/index.html")
+      aboutUrl = currentUrl.replace("/calendar","/about")
     }, 100);
     setInterval(function () {
       currentUrl = window.location.href;
-      homeUrl = currentUrl.replace("/calendar/index.html","/homepage/index.html");
+      homeUrl = currentUrl.replace("/calendar","/homepage");
       
       var today = new Date();
       var dd = String(today.getDate()).padStart(2, '0');

@@ -13,11 +13,11 @@
     var calendarUrl = "filler";
     setInterval(function() {
       currentUrl = window.location.href;
-      homeUrl = currentUrl.replace("/about/index.html","/homepage/index.html")
+      homeUrl = currentUrl.replace("/about","/homepage")
     }, 100);
     setInterval(function() {
       currentUrl = window.location.href;
-      calendarUrl = currentUrl.replace("/about/index.html","/calendar/index.html")
+      calendarUrl = currentUrl.replace("/about","/calendar")
     }, 100);
   </script>
   <div id="topbar" oncontextmenu="return false;">
