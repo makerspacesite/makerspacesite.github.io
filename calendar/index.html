@@ -44,7 +44,7 @@
     }, 100);
     setInterval(function () {
       currentUrl = window.location.href;
-      homeUrl = currentUrl.replace("/calendar","/homepage");
+      homeUrl = currentUrl.replace("/calendar","");
       
       var today = new Date();
       var dd = String(today.getDate()).padStart(2, '0');
